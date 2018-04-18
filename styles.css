@@ -210,8 +210,13 @@ a {
  background: uimages/menu.svg);
 }
 .search-bar-input {
+ background-image: url(images/search.svg);
+ background-position: 0.7rem 51%;
+ background-repeat: no-repeat;
+ background-size: 1.25rem;
  font-size: 1em;
- height: 10%;
+ height: 100%;
+ margin-left: 10rem;
  padding-left: 2rem;
  vertical-align: top;
  width: 75vw;
@@ -330,7 +335,7 @@ header {
  align-items: center;
  height: 29vh;
  margin-left: 10%;
- margin-top: 5rem;
+ margin-top: 25rem;
  width: 47vw;
 }
 
@@ -435,10 +440,6 @@ header {
  background-image: url(images/network-hover.svg);
 }
 
-.hr-icon {
- background-color: #01AD89;
-}
-
 .add-event-icon {
  background-image: url(images/add-event.svg);
 }
@@ -498,12 +499,85 @@ header {
 
 .social-buttons {
  display: flex;
- flex-wrap: wrap;
+ flex-wrap: nowrap;
+ width: 100%;
+}
+
+.social-button {
+ background-position: 0.3rem 50%;
+ background-repeat: no-repeat;
+ background-size: 1.25rem;
+ border-radius: 3px;
+ color: white;
+ font-size: 14px;
+ height: 3.125rem;
+ padding: 0em 2em 0em 15em;
+ width: 100%;
+ text-align: center;
+ align-content: center;
+}
+
+.share {
+ border-radius: 0 3px 3px 0;
+ box-shadow: 0 1px 3px rgba(51, 51, 51, .2);
+ display: flex;
+}
+
+.share-input input {
+ color: #6F7E95;
+ margin: 0em 0em 6em 1em;
+ padding: 17px;
+}
+
+.share-text-wrapper {
+ display: flex;
+ flex-direction: 
+}
+
+.social-button:not(:last-child) {
+ margin-bottom: 1.25rem;
+}
+
+.facebook {
+ background-color: #4B71C2;
+ background-image: url(images/facebook.svg);
+ background-position: 0.75rem 50%;
+}
+
+.facebook:hover {
+ background-color: hsl(220,56%,58%);
+ background-size: 25px;
+ background-position-X: 0.625rem;
+}
+
+.twitter {
+ background-color: #02ABF0;
+ background-image: url(images/twitter.svg);
+ background-position: 16px 50%;
+}
+
+.twitter:hover {
+ background-color: hsl(197,100%,53%);
+ background-size: 25px;
+ background-position-X: 14px;
+}
+
+.linkedin {
+ background-color: #0F80BC;
+ background-image: url(images/linked-in.svg);
+ background-position: 0.9375rem 50%;
+}
+
+.linkedin:hover {
+ background-color: hsl(199,98%,43%);
+ background-size: 25px;
+ background-position-X: 13px;
 }
 
 .social-section-wrapper {
  border-bottom: 2px solid black;
  display: flex;
+ flex-direction: column;
  font-size: 0;
  margin: 0 40px;
  padding: 30px 0;
