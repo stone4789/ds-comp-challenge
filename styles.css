@@ -278,7 +278,7 @@ header {
  display: inline-flex;
  font-weight: 600;
  line-height: 1.35rem;
- margin: 12em 0em 0em 19em;
+ margin: 19em 1em 0em 59em;
  padding: 2vw 4vw;
 }
 
@@ -348,6 +348,7 @@ header {
  border: 0.125rem solid black;
  color: black;
  height: 2.19rem;
+ margin: 3% 42%;
 }
 /*BAR CHART*/
 
