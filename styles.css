@@ -272,7 +272,7 @@ header {
 }
 
 .totals-button {
- background-color: rgb(236, 240, 244);
+ background-color: rgb(255, 255, 255);
  border-radius: 20px;
  border: 2px solid black;
  display: inline-flex;
@@ -339,6 +339,16 @@ header {
  width: 47vw;
 }
 
+.applicants-days-button {
+ background-color: rgb(255, 255, 255);
+ background-position: 50%;
+ background-repeat: no-repeat;
+ background-size: 0.99rem;
+ border-radius: 6.25rem;
+ border: 0.125rem solid black;
+ color: black;
+ height: 2.19rem;
+}
 /*BAR CHART*/
 
 /*ICONS*/
@@ -478,7 +488,7 @@ header {
  border-right: 0.129rem solid #F2F2F2;
  color: #919293;
  display: flex;
- padding: 2.5rem;
+ padding: 3.5rem;
 }
 
 .job-trait {
