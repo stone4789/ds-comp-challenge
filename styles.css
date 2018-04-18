@@ -80,6 +80,15 @@ ul {
  display: flex;
 }
 
+.mr-doge {
+ margin: 0em 0em 0em 7em;
+}
+
+.nav-main {
+ color: rgb(82, 95, 122);
+ margin-left: 2em;
+}
+
 .doge {
  align-items: center;
  border-radius: 100%;
@@ -186,12 +195,6 @@ a {
 
 }
 
-.search-bar-square {
- display: block;
- width: 80px;
- height: 80px;
-}
-
 .close-nav {
  background: uimages/menu.svg);
 }
@@ -207,6 +210,13 @@ a {
  border: 0.129rem solid #16A4FA;
 }
 
+.search-bar-square {
+ background-position: center;
+ background-size: 40% 40%;
+ background-repeat: no-repeat;
+}
+
+
 header {
  align-items: center;
  border: 1px solid black;
@@ -217,7 +227,9 @@ header {
 
 .search-bar-square {
  border: 1px solid black;
- padding: 10px;
+ display: flex;
+ width: 80px;
+ height: 80px;
 }
 /*CIRCLE CHARTS*/
 .circle-data {
@@ -233,17 +245,31 @@ header {
 }
 
 .circle {
- align-items: center;
  border-radius: 200px;
- border: 0.625rem solid;
  display: flex;
- flex-direction: column;
+ flex-direction: row;
  height: 180px;
+ height: 20rem;
  justify-content: center;
- transform: rotate(-45deg);
- width: 180px;
- margin-top: 3px;
+ margin: 0rem -13rem 0rem -2rem;
+ width: 25rem;
 }
+
+.totals-button {
+ border-radius: 20px;
+ border: 2px solid black;
+ display: inline-block;
+ font-weight: 600;
+ line-height: 1.35rem;
+ margin: 7em 0em 0em 19em;
+ padding: 2vw 7vw;
+}
+
+.applicants-circle,
+.interviews-circle,
+.forwards-circle {
+ width: 5rem;
+ height: 5rem;}
 
 .applicants-circle {
  border: 10px solid;
@@ -264,6 +290,7 @@ header {
  background-color: rgb(231, 239, 244);
  display: flex;
  flex-wrap: wrap;
+ margin-right: 25%;
 }
 
 .graph-section-subwrapper {
@@ -276,9 +303,11 @@ header {
 }
 
 .chart {
+ align-items: center;
  height: 29vh;
- width: 49vw;
- margin-left: 32%;
+ margin-left: 10%;
+ margin-top: 5rem;
+ width: 47vw;
 }
 
 /*BAR CHART*/
@@ -293,6 +322,8 @@ header {
  background-position: 1.25rem 45%;
  float: left;
 }
+
+
 
 .calendar-icon {
  background-image: url(images/nav-calendar.svg);
@@ -311,11 +342,11 @@ header {
 }
 
 .boards-icon {
- background-image: url(images/newspaper.svg);
+ background-image: url(images/job-board.svg);
 }
 
 .boards-icon:hover {
- background-image: url(images/newspaper-active.svg);
+ background-image: url(images/job-board-hover.svg);
 }
 
 .jobs-icon {
@@ -358,11 +389,12 @@ header {
 }
 
 .users-icon {
- background-image: url(images/users.svg);
+ background-image: url(images/add-user.svg);
 }
 
 .users-icon:hover {
- background-image: url(images/users-hover.svg);
+ background-image: url(images/add-user-hover.svg);
+ background-color: rgb(25, 144, 248);
 }
 
 .workflows-icon {
@@ -374,9 +406,25 @@ header {
 }
 
 .hr-icon {
- background-color: #01AD89
+ background-color: #01AD89;
 }
 
+.add-event-icon {
+ background-image: url(images/add-event.svg);
+}
+.add-event-icon:hover {
+ background-image: url(images/add-event-hover.svg);
+ background-color: rgb(25, 144, 248);
+}
+
+.menu-icon {
+ background-image: url(images/menu-grid.svg);
+}
+
+.menu-icon:hover {
+ background-image: url(images/menu-grid-hover.svg);
+ background-color: rgb(25, 144, 248);
+}
 /*JOB DESCRIPTION*/
 .job-description-list {
  border-bottom: 2px solid black;
