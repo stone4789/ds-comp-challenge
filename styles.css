@@ -71,13 +71,24 @@ a {
  text-decoration: none;
 }
 
-ul {
+ul, li {
  list-style: none;
+}
+
+hr {
+ border-color: rgb(31, 37, 50);
+ border-width: 1px;
+ margin: auto 0;
+ width: 100%;
 }
 
 /*NAV BAR*/
 .main-wrapper {
  display: flex;
+}
+
+.nav-main {
+ background-repeat: no-repeat;
 }
 
 .mr-doge {
@@ -233,7 +244,7 @@ header {
 }
 /*CIRCLE CHARTS*/
 .circle-data {
- margin-top: 3px;
+ margin-top: 1.2em;
  text-align: center;
 }
 .pie-charts {
@@ -256,13 +267,26 @@ header {
 }
 
 .totals-button {
+ background-color: rgb(236, 240, 244);
  border-radius: 20px;
  border: 2px solid black;
- display: inline-block;
+ display: inline-flex;
  font-weight: 600;
  line-height: 1.35rem;
- margin: 7em 0em 0em 19em;
- padding: 2vw 7vw;
+ margin: 12em 0em 0em 19em;
+ padding: 2vw 4vw;
+}
+
+.totals-text {
+ display: flex;
+ flex: none;
+ margin: -1em 8em 0em 0em;
+}
+
+.circle-content {
+ top: 50%;
+ bottom: 50%;
+ transform: translate(-50%, -50%);
 }
 
 .applicants-circle,
@@ -323,8 +347,6 @@ header {
  float: left;
 }
 
-
-
 .calendar-icon {
  background-image: url(images/nav-calendar.svg);
 }
@@ -341,12 +363,12 @@ header {
  background-image: url(images/home-hover.svg);
 }
 
-.boards-icon {
- background-image: url(images/job-board.svg);
+.job-boards-icon {
+ background-image: url(images/job-boards.svg);
 }
 
-.boards-icon:hover {
- background-image: url(images/job-board-hover.svg);
+.job-boards-icon:hover {
+ background-image: url(images/job-boards-hover.svg);
 }
 
 .jobs-icon {
@@ -362,7 +384,7 @@ header {
 }
 
 .locations-icon:hover {
- background-image: url(images/location-side-active.svg);
+ background-image: url(images/location-side-hover.svg);
 }
 .resumes-icon {
  background-image: url(images/resume.svg);
@@ -373,11 +395,11 @@ header {
 }
 
 .social-icon {
- background-image: url(images/share.svg);
+ background-image: url(images/social.svg);
 }
 
 .social-icon:hover {
- background-image: url(images/share-hover.svg);
+ background-image: url(images/social-hover.svg);
 }
 
 .tasks-icon {
@@ -388,13 +410,21 @@ header {
  background-image: url(images/clipboard-hover.svg);
 }
 
-.users-icon {
+.user-icon {
  background-image: url(images/add-user.svg);
 }
 
-.users-icon:hover {
+.user-icon:hover {
  background-image: url(images/add-user-hover.svg);
  background-color: rgb(25, 144, 248);
+}
+
+.users-icon {
+ background-image: url(images/users.svg);
+}
+
+.users-icon:hover {
+ background-image: url(images/users-hover.svg);
 }
 
 .workflows-icon {
