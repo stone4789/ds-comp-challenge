@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,6 +7,23 @@
     <title>Comp3</title>
 </head>
 <body>
+            <!-- SEARCH BAR -->
+            <section class="main-content">
+                <header>
+                    <div class="search-bar-square">
+                        <div class="close-nav"></div> 
+                    </div>
+                    <input class="search-bar-input" type="search" placeholder="Search for Content Here" name="search">
+                    <div class="search-bar-square search-icon">
+                        <div class="search-bar-square search-icon"><a href="#"></a></div>
+                    </div>
+                    <div class="search-bar-square search-icon">
+                        <div class="search-bar-square search-icon"><a href="#"></a></div>
+                    </div>
+                    <div class="search-bar-square search-icon">
+                        <div class="search-bar-square search-icon"><a href="#"></a></div>
+                    </div>
+                </header>
     <!-- PROFILE+NAV -->
     <aside class="main-wrapper">
         <nav class="nav-bar">
@@ -14,8 +31,7 @@
                 <img src="images/doge.png" alt="Profile Image" class="doge">
                 <h1>Mr. Doge</h1>
             </div>
-            <h2>####</h2>
-            <ul class="nav list main">Main</ul>
+            <ul class="nav-list-main">Main</ul>
                 <li><a href="#">
                     <div class="icon home-icon"></div>HOME</a></li>
                 <li><a href="#">
@@ -32,7 +48,7 @@
                 </a></li>
                 <hr>
             <h2>Admin</h2>
-            <ul class="nav list admin">
+            <ul class="nav-list-admin">
                 <li><a href="#">
                     <div class="icon users-icon"></div>USERS</a></li>
                 <li><a href="#">
@@ -50,7 +66,7 @@
             </ul>
                 <hr>
             <h2>Categories</h2>
-            <ul class="nav list categories">
+            <ul class="nav-list-categories">
                 <li><a href="#">
                     <div class="icon administrative-icon">Administrative</div>
                 </a></li>
@@ -66,25 +82,8 @@
             </ul>
                 <hr>
             </nav>
-            <!-- SEARCH BAR -->
-            <section class="main-content">
-                <header>
-                    <div class="search-bar-square">
-                        <div class="close-nav"></div> 
-                    </div>
-                    <input class="search-bar-input" type="search" placeholder="Search for Content Here" name="search">
-                    <div class="search-bar-square search-icon">
-                        <div class="search-bar-square search-icon"><a href="#">Add User</a></div>
-                    </div>
-                    <div class="search-bar-square search-icon">
-                        <div class="search-bar-square search-icon"><a href="#">Add Event</a></div>
-                    </div>
-                    <div class="search-bar-square search-icon">
-                        <div class="search-bar-square search-icon"><a href="#">Settings</a></div>
-                    </div>
-                </header>
                 <!-- PROFILE SECTION -->
-                <section class="banner-heading"><h1>Pupper of the United States</h1>
+                <section class="banner-heading"><h1 class="job-title">Pupper of the United States</h1>
                 <p class="boulder">Boulder, CO<a href="#">Preview This Post</a></p>
                 <section class="banner-icons">
                     <div class="banner-icon round status"><a href="#"></a></div>
@@ -95,13 +94,13 @@
                 <!-- TAB SECTION -->
                 <nav class="tab-nav">
                     <ul>
-                        <li><a href="#">SUMMARY</a></li>
-                        <li><a href="#">APPLICANTS</a></li>
-                        <li><a href="#">JOB BOARD</a></li>
-                        <li><a href="#">INTERVIEWS</a></li>
-                        <li><a href="#">ACTIVITY</a></li>
-                        <li><a href="#">BROADCAST</a></li>
-                        <li><a href="#">NOTIFICATIONS</a></li>
+                        <li class="tab"><a href="#">SUMMARY</a></li>
+                        <li class="tab"><a href="#">APPLICANTS</a></li>
+                        <li class="tab"><a href="#">JOB BOARD</a></li>
+                        <li class="tab"><a href="#">INTERVIEWS</a></li>
+                        <li class="tab"><a href="#">ACTIVITY</a></li>
+                        <li class="tab"><a href="#">BROADCAST</a></li>
+                        <li class="tab"><a href="#">NOTIFICATIONS</a></li>
                     </ul>
                 </nav>
             </section>
@@ -110,19 +109,19 @@
             <section class="graph-section-wrapper">
                 <section class="graph-section-subwrapper">
                     <div class="circle pie-charts">
-                        <div class="applicants circle">
+                        <div class="circle applicants-circle">
                             <div class="circle-data">
                                 <p class="number">3,154</p>
                                 <p class="label">Applicants</p>
                             </div>
                         </div>
-                      <div class="interviews circle">
+                      <div class="circle interviews-circle">
                             <div class="circle-data">
                                 <p class="number">1,546</p>
                                 <p class="label">Interviews</p>
                             </div>
                         </div>
-                      <div class="forwards circle">
+                      <div class="circle forwards-circle">
                             <div class="circle-data">
                                 <p class="number">912</p>
                                 <p class="label">Forwards</p>
@@ -148,44 +147,44 @@
                     </div>
                     <ul class="job-description-list">
                         <li>
-                            <h2>POSITION TITLE
-                                <p>Pupper of the United States</p>
+                            <h2 class="position-title job-trait">POSITION TITLE
                             </h2>
+                                <p class="detail">Pupper of the United States</p>
                         </li>
                         <li>
-                            <h2>LOCATION
-                                <p>Washington D.C.</p>
+                            <h2 class="position-location job-trait">LOCATION
                             </h2>
+                                <p class="detail">Washington D.C.</p>
                         </li>
                         <li>
-                            <h2>EMPLOYMENT TYPE
-                                <p>Extremely-Full-Time</p>
+                            <h2 class="position-type job-trait">EMPLOYMENT TYPE
                             </h2>
+                                <p class="detail">Extremely-Full-Time</p>
                         </li>
                         <li>
-                            <h2>EXPERIENCE
-                                <p>As Much As Possible</p>
+                            <h2 class="position-experience job-trait">EXPERIENCE
                             </h2>
+                                <p class="detail">As Much As Possible</p>
                         </li>
                         <li>
-                            <h2>STATUS
-                                <p>Fraught</p>
+                            <h2 class="position-status job-trait">STATUS
                             </h2>
+                                <p class="detail">Fraught</p>
                         </li>
                         <li>
-                            <h2>DESCRIPTION
-                                <p>Be the steward for all American dogs. Barking on their behalf in diplomatic and sometimes not-so-diplomatic situations. Strong command of dog language and basic decency required. Sleazy lawyer friends must be kept to a minimum.</p>
+                            <h2 class="position-description job-trait">DESCRIPTION
                             </h2>
+                                <p class="detail">Be the steward for all American dogs. Barking on their behalf in diplomatic and sometimes not-so-diplomatic situations. Strong command of dog language and basic decency required. Sleazy lawyer friends must be kept to a minimum.</p>
                         </li>
                         <li>
-                            <h2>HIRING LEAD
-                                <p>Snekretary</p>
+                            <h2 class="position-hiring job-trait">HIRING LEAD
                             </h2>
+                                <p class="detail">Snekretary</p>
                         </li>
                         <li>
-                            <h2>SALARY
-                                <p>$120,000/yr+Inevitable Book Deal.</p>
+                            <h2 class="position-salary job-trait">SALARY
                             </h2>
+                                <p class="detail">$120,000/yr+Inevitable Book Deal.</p>
                         </li>
                     </ul>
                 </section>
@@ -200,20 +199,17 @@
                         <div class="share">
                             <h3 class="share-text share-link">Link to this Job</h3>
                                 <p>Spread the Wealth!</p>
-                                <div class="share-input"><input type="text"><button class="share-button"></button></div>
-                            
+                                <div class="share-input"><input type="text"><button class="share-button"></button></div> 
                         </div>
                         <div class="share">
                             <h3 class="share-text share-link">Use Our Button Widget</h3>
                                 <p>Embed a button to let others submit resumes to this job</p>
-                                <div class="share-input"><input type="text"><button class="share-button"></button></div>   
-                        </div>
+                                <div class="share-input"><input type="text"><button class="share-button"></button></div>    </div>
                         <div class="share">
                             <h3 class="share-text share-link"></h3>
                                 <p></p>
                                 <div class="share-input"><input type="text"><button class="share-button"></button></div>
-                            
-                        </div>
+                            </div>
                     </section>
                 </section>
             </section>
